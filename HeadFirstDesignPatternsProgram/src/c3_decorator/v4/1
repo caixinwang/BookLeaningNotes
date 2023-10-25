@@ -1,0 +1,4 @@
+java的io包中的装饰者模式
+FilterInputStream 是装饰者 ，父类是InputStream
+FilterInputStream的子类，也就是具体的装饰者有BufferedInputStream、DataInputStream等等
+父类InputStream的其它子类就是被装饰者
